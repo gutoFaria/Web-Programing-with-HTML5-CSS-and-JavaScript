@@ -1,0 +1,33 @@
+
+ 
+ hr{
+     margin-right: 50%;
+ }
+ h1{
+     font-size: 80px;
+ }
+ p{
+     font-size: 30px;
+ }
+ 
+ ul{
+     text-align: center;
+ }
+ li{
+     display: inline;
+     margin: 5px;
+     width: 10px;
+     height: 60px;
+     background-color: rgb(117, 117, 168);
+     font-weight: bold;
+     border: 1px solid black;
+ }
+ a{
+     text-decoration: none;
+     color: #FFF;
+ }
+ 
+ a:hover{
+     color: black;
+     cursor: pointer;
+ }
