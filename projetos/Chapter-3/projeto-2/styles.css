@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(97, 203, 221);
+}
+
+h1,h2{
+    text-align: center;
+}
+
+hr{
+    height: 3px;
+    border-radius: 2px 2px 2px 2px;
+    background-color: rgb(206, 194, 194);
+}
+
+p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.titulo1{
+    font-weight: bold;
+}
+
+.cinza-claro{
+    color: hsl(0, 16%, 75%);
+}
+
+.roxo{
+    color: rgb(161, 39, 131);
+}
+
+.amarelo{
+    color: rgb(163, 129, 15);
+}
+
+.sublinhado{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer{
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(117, 26, 114);
+    
+}
+
+a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+a:hover{
+    color: #000000;
+}
