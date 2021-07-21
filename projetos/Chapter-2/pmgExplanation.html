@@ -6,15 +6,28 @@
     <title>Método map()</title>
 </head>
 <body>
-    <header>
-        <h1>Método map() em javascript</h1>
-    </header>
     <div class="container">
+        <header>
+            <h1>Método map() em javascript</h1>
+        </header>
         <div class="explicacao">
             <h2>Conceito</h2>
-            <p>O JavaScript map faz parte do conjunto de métodos disponíveis na linguagem para a manipulação de objetos do tipo array.</p>
+            <p>O map faz parte do conjunto de métodos disponíveis na linguagem javascript para a manipulação de objetos do tipo array.Ele opera com par de valores-chave.O método <code>map()</code>  é invocado a partir de um array.</p>
         </div>
-        <div class="codigo"></div>
+        <div class="segundo">
+            <h3>Exemplo</h3>
+            <p class="codigo">
+                <code>
+                    var numeros = [1,2,3,4,5]; <br/>
+                    var quadrados = numeros.map(function(item){ <br>
+                        return Math.pow(item,2);<br>
+                    }) <br>
+
+                    console.log(numeros);
+                </code>
+            </p>
+        </div>
+        
     </div>
 
     <footer class="footer">
