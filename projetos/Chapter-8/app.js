@@ -49,4 +49,28 @@ function apagaLetras(){
     document.getElementById("bottom").value='';
 }
 
+const updateButton = document.getElementById("update");
+updateButton.addEventListener('click',update);
+
+function update(){
+    var r =document.getElementById("right").value;
+    var l =document.getElementById("left").value;
+    var t =document.getElementById("top").value;
+    var b =document.getElementById("bottom").value;
+
+    document.getElementById("e").innerHTML=l;
+    document.getElementById("s").innerHTML=b;
+    document.getElementById("w").innerHTML=r;
+    document.getElementById("n").innerHTML=t;
+
+    if((document.getElementById("e").value === 'n' || document.getElementById("e").value === 'N') && (document.getElementById("s").value === 'w' || document.getElementById("s").value === 'W') && (document.getElementById("w").value === 's' || document.getElementById("w").value === 'S') && (document.getElementById("n").value === 'e' || document.getElementById("n").value === 'E'))
+    {
+        document.getElementById("vitoria").value = "Victory";
+    }
+    else
+    {
+        document.getElementById("vitoria").value = "Defeat";
+    }
+}
+
 
