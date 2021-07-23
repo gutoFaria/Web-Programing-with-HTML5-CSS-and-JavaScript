@@ -65,11 +65,13 @@ function update(){
 
     if((document.getElementById("e").value === 'n' || document.getElementById("e").value === 'N') && (document.getElementById("s").value === 'w' || document.getElementById("s").value === 'W') && (document.getElementById("w").value === 's' || document.getElementById("w").value === 'S') && (document.getElementById("n").value === 'e' || document.getElementById("n").value === 'E'))
     {
-        document.getElementById("vitoria").value = "Victory";
+        document.getElementById("vitoria").innerHTML = "Victory";
+        console.log('v');
     }
     else
     {
-        document.getElementById("vitoria").value = "Defeat";
+        document.getElementById("vitoria").innerHTML = "Defeat";
+        console.log('d')
     }
 }
 
